@@ -1,75 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML5</title>
-    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a>Início</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Linguagens</a></li>
-                <li><a>Contato</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a>Início</a></li>
+          <li><a>Sobre</a></li>
+          <li><a>Linguagens</a></li>
+          <li><a>Contato</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="inicio">
-            <h1>Seja Bem Vindo!</h1>
-            <p>Aqui você encontrará informações sobre o uso do HTML5 semântico para desenvolvimento web.</p>
-        </section>
+      <section id="inicio">
+        <br />
+        <h1>Welcome!</h1>
+        <p>
+          Aqui você encontrará informações sobre o uso do HTML5 semântico para
+          desenvolvimento web.
+        </p>
+      </section>
 
+      <div class="html">
         <section id="sobre">
-            <h2> Sobre o HTML5 semântico</h2>
-            <p>O HTML5 semântico é uma evolução da lingugem HTML que permite aos desenvolvedores criar mais
-                siginificativas e ricas em conteúdo para seus sites e aplicativos.
-            </p>
+          <h2>Sobre o HTML5 semântico</h2>
+          <br />
+          <p>
+            O HTML5 semântico é uma evolução da lingugem HTML que permite aos
+            desenvolvedores criar mais siginificativas e ricas em conteúdo para
+            seus sites e aplicativos.
+          </p>
+          <div class="image">
+            <img src="./image/702305.png" alt=""></div>
+        </div>
         </section>
+      </div>
 
+      <div linguagens>
         <section id="linguagens">
-            <h2> Outras linguagens associadas</h2>
-            <ul>
-                <li>HiperText Markup Language - HTML</li>
-                <li>Cascading Style Sheet - CSS</li>
-                <li>JavaScript - JS</li>
-            </ul>
+          <h2>Outras linguagens associadas</h2>
+
+          <li>HiperText Markup Language - HTML</li>
+
+          <li>Cascading Style Sheet - CSS</li>
+          <li>JavaScript - JS</li>
         </section>
+      </div>
 
-        <section id="contato">
-            <h2>Fale Conosco</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
-                <label>E-mail:</label>
-                <input type="text" name="email" id="email">
-                <label>mensagem:</label>
-                <textarea type="text" name="mensagem" id="mensagem"></textarea>
-               
-                <div>
-                    <input type="checkbox" name="checkbox" id="checkbox">
-                    <label for="checkbox"> Desejo receber mais e-mails</label>
-                </div>
-                <input id="buttom" type="submit" value="Enviar"
+      <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+          <label>E-mail:</label>
+          <input type="text" name="email" id="email" />
+          <label>Mensagem:</label>
+          <textarea type="text" name="mensagem" id="mensagem"></textarea>
 
-                </form>
-        </section>
-
-
-
-
-
-
-
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox"> Desejo receber mais e-mails</label>
+          </div>
+          <input id="buttom" type="submit" value="Enviar" />
+        </form>
+      </section>
     </main>
 
-    <Footer>
-        <p>Todos os direitos reservados - Site HTML5</p>
-    </Footer>
-</body>
+    <footer>
+      <p>Todos os direitos reservados - Site HTML5</p>
+    </footer>
+  </body>
 </html>
