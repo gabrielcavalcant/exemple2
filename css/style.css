@@ -4,19 +4,41 @@
 }
 body{
     color: white;
+    background-image:url(../Image/textura.jpg);
+    height: 100%;
 }
 
 header{
+    box-shadow: 0px 2px 15px rgb(150, 50, 150);
     background-color: rgb(40, 0, 70);
     padding: 10px;
     align-items: center;
+    
 }
+header li{
+ transition: 0.3s;   
+}
+
+header li:hover{
+ font-size: large;
+
+
+}
+
 header ul{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 }
+main{
+   
+    background-image: linear-gradient(to right, rgba(20,0,30,0.5), rgba(40,0,70,0.5),rgba(20,0,30,0.5) );
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 footer{
     display:flex;
     flex-direction: row;
@@ -25,4 +47,12 @@ footer{
     background-color: rgb(40, 0, 70);
     padding: 10px;
 
+}
+
+
+#contato form{
+
+
+
+    
 }
